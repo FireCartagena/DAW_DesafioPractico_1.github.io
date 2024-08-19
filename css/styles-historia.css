@@ -1,0 +1,28 @@
+.back-link1{
+    text-decoration: none;
+}
+
+#image-historia{
+    border-radius: 10%;
+    width: 375px;
+    height: 375px;
+ }
+
+ #imagen-historia-index{
+    border-radius: 10%;
+ }
+
+#image-historia:hover{
+    transform: scale(1.1);
+}
+
+.font-historia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+    text-align: justify;
+}
+
+.historia{
+    text-align: center;
+
+}

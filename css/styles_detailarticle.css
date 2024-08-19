@@ -1,0 +1,101 @@
+
+.detalle-con-sidebar {
+    display: flex;
+}
+
+.detalle-articulo {
+    flex: 3;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    
+}
+
+.back-link1{
+    text-decoration: none;
+}
+
+#image-historia{
+    border-radius: 10%;
+ }
+
+ #imagen-historia-index, #image-discografia{
+    border-radius: 10%;
+ }
+
+#image-historia:hover, #image-discografia:hover{
+    transform: scale(1.1);
+}
+
+.font-historia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+    text-align: justify;
+}
+
+.historia{
+    text-align: center;
+
+}
+
+.sidebar {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .detalle-con-sidebar {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .detalle-con-sidebar {
+        padding: 0 1rem;
+    }
+
+    .sidebar {
+        padding: 1rem;
+    }
+
+    .sidebar h3 {
+        font-size: 1.1rem;
+    }
+
+    .sidebar ul li a {
+        font-size: 0.95rem;
+    }
+}
